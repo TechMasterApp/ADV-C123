@@ -23,8 +23,6 @@ h3 {
 }
 
 canvas {
-    border-color: black;
-    border-width: 3px;
-    border-style: dotted;
+    background-color: cornflowerblue;
 }
   
