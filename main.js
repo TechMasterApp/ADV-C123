@@ -20,7 +20,11 @@ function setup() {
 }
 
 function draw() {
-
+    wristdiff = Math.floor(abs(lwx - rwx))
+    document.getElementById("side").innerHTML = "Side Length: " + wristdiff
+    background("cornflowerblue")
+    square(nx, ny, wristdiff)
+    fill("red")
 }
 
 function modelLoaded() {
